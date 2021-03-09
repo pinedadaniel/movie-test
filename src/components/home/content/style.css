@@ -1,0 +1,51 @@
+
+*{
+    padding: 0;
+    margin: 0;;
+}
+.containerContent{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.containerContent{
+    padding: 7% 4%;
+}
+.content-titlle{
+    font-size: 50px;
+    margin: 0;
+}
+.content-subtitle{
+    font-size: 26px;
+    margin: 16px;
+}
+.content-label{
+    font-size: 19px;
+    padding-top: 13.6px;
+    margin: 0;
+    padding: 18px;
+}
+.btn-comenzar{
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    padding: 20px 26px;
+    font-size: 27px;
+   
+}
+.form-content{
+    width: 100%;
+}
+#content-email{
+    padding: 10px 10px;
+    height: 48px;
+    width: calc(50% - 20px);
+    border: none;
+    margin: 0;
+    
+}
+.cursor{
+    cursor: pointer;
+}
