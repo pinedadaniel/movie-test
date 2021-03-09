@@ -13,16 +13,22 @@
 }
 .btn-login{
     background-color: #e50914;
-    padding: 7px 17px;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     border-radius: 5px;
+    border: none;
 }
 .btn-lang{
     background: rgba(0,0,0,.4);
     border: 1px solid white;
+    border-radius: 4px;
     color: #fff;
-    width: 73px;
-    height: 45px;
+    width: 90px;
+    height: 40px;
 }
 .lang{
     opacity: 0;

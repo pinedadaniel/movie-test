@@ -12,6 +12,7 @@
 }
 .containerContent{
     padding: 7% 4%;
+    margin-bottom: 80px;
 }
 .content-titlle{
     font-size: 50px;
@@ -31,12 +32,15 @@
     color: #fff;
     background-color: #e50914;
     border: none;
-    padding: 20px 26px;
+    padding: 19px 26px;
     font-size: 27px;
    
 }
 .form-content{
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #content-email{
     padding: 10px 10px;
