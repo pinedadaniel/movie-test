@@ -1,0 +1,222 @@
+.containerBody{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .cardBody{
+        height: 100%;
+        background-color: rgba(0,0,0,.75);
+        border-radius: 4px;
+        padding: 60px;
+        width: 300px;
+        margin-bottom: 60px;
+        .campLogin{
+        
+            display: flex;
+            flex-direction: column;
+            height: 120px;
+            justify-content: space-between;
+            margin-bottom: 50px;
+
+            .boxLogin{
+                display: flex;
+                align-items: center;
+                
+                .campos{
+                    position: relative;
+                    height: 50px;
+                    width: 100%;
+                    background: #333333;
+                    border-radius: 4px;
+                    border: none;
+                    outline: none;
+                    padding-left: 20px;
+                    color: white;
+                }
+
+                .placeholder1{
+                    position: absolute;
+                    padding-left: 20px;
+                    color: #8c8c8c;
+                    transition: .5s;
+                }
+                
+                .placeholder2{
+                    position: absolute;
+                    padding-left: 20px;
+                    color: #8c8c8c;
+                    transition: .5s;
+                
+                }
+                
+        
+                .campos:focus + .placeholder1 {
+                    top: 208px;
+                    color: #8c8c8c;
+                    font-size: 12px ;   
+                    
+                }
+                .campos:focus + .placeholder2 {
+                    top: 300px;
+                    color: #8c8c8c;
+                    font-size: 12px ;   
+        
+                }
+            }
+
+
+
+
+
+
+            .border_bottom {
+                border-bottom: solid 2px #e87c03;
+            }
+            .small {
+                color: #e87c03;
+                padding: 5px 0 15px;
+            }
+        }
+        .submit{
+            height: 50px;
+            width: 100%;
+            background: #e50914;
+            border-radius: 4px;
+            border: none;
+            font-size: 20px;
+            color: white;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contHelp{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+            .sectionCheckbox{
+                height: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .checkbox{
+                    display: none;
+
+                }
+                .labelCheckbox{
+                    display: flex;
+                    align-items: center;
+                }
+                .labelCheckbox::before{
+                    
+                    content: '';
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid ;
+                    border-radius: 3px;
+                    background-color: #737373;
+                    height: 17px;
+                    width: 17px;   
+                    cursor: pointer;    
+                }
+                .checkbox:checked + .labelCheckbox::before{
+                    
+                    content: '✓';
+                    font-weight: 900;
+                    background-color: white;
+        
+                }
+
+            }
+            .fontHelp{
+                padding-left: 10px;
+                font-size: 14px;
+                color: #b3b3b3 ;
+                font-weight: 600;
+                cursor: pointer;
+                text-decoration: none;
+
+
+            }
+            .fontHelp:hover{
+                text-decoration: underline;
+            }
+
+
+
+
+        }
+        .contBoxFinal{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-top: 30px;
+            margin-bottom: 80px;
+
+
+
+            .apiFacebook{
+                display: flex;
+                align-items: center;
+                .facebook{
+                    color: #3b579d;
+                    margin-right: 5px;
+                }
+                .fontFacebook{
+                    color: #737373;
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+            }
+            .boxFinal{
+                display: flex;
+                align-items: center;
+                height: 25px;
+                .fonth2{
+                    color: #737373;
+                    font-size: 16px;
+                    font-weight: 500;
+                    margin-top: 16px;
+                    margin-right: 10px;
+                }
+                .fontSuscrib{
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+                .fontSuscrib:hover{
+                    text-decoration: underline;
+                }
+            }
+            .copyrig{
+                
+                font-size: 13px;
+                color: #8c8c8c;
+    
+                .fontInfo{
+                    color: #0071eb;
+                    text-decoration: none;
+                    padding-left: 5px;
+                }
+                .fontInfo:hover{
+                    text-decoration: underline
+                    ;
+                }
+    
+            }
+
+        }
+        
+
+    }
+    .titleMain{
+        color: white;
+        margin-top: 0;
+        margin-bottom: 25px;
+    }
+
+    .cursor{
+        cursor: pointer;
+    }
+}
