@@ -1,4 +1,4 @@
-import Header from "./../../components/home/header"
+import Header from "./../../components/details/header"
 import './style.css';
 import Content from "./../../components/details/content"
 function Details() {

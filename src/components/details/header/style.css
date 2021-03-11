@@ -1,0 +1,48 @@
+.detailsContainerHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+    margin: 0;
+    height: 14vh;
+}
+.nameUser{
+    font-size: 20px;
+    color: white;
+    padding: 0 5px 0 10px;
+}
+.detailsHeaderRight .material-icons{
+color: white;
+}
+.headerRightTop{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+input[type="checkbox"]{
+display: none;
+}
+.lista-perfil{
+    color: white;
+    list-style: none;
+    font-weight: 900px;
+    font-size: 18px;
+    position: absolute;
+    background-color: rgba(0,0,0,.9);
+    padding: 8px;
+        text-align: center;
+        border-radius: 5px;
+        border:1px solid white;
+        border-top: none;
+    top: 35px;
+    display: none;
+
+    
+        
+} 
+
+input[type="checkbox"]:checked + .lista-perfil{
+    display: flex;
+    
+}

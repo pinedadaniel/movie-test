@@ -5,6 +5,8 @@
     border-radius: 10px;
     color: white;
     padding: 4%;
+
+    
 }
 .contentDetailsImg{
     margin: 0 20px 0 0;
@@ -31,7 +33,7 @@ width: 50%;
     font-size: 14px;
 }
 .titleEtiqueta{
-    margin: 0px 5px;
+    margin-right:10px;
 }
 .textEtiqueta{
     color: #e50914;
