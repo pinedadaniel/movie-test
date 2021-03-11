@@ -1,12 +1,15 @@
 import './style.css';
 import Netflix from '../../../images/netflix.svg';
-import perfil   from "../../../images/perfil.jpg"
+import perfil   from "../../../images/perfil.jpg";
+import { Link } from "react-router-dom";
 function Header() {
 
     return(
         <div className="detailsContainerHeader">
             <div className="detailsHeaderLeft">
-            <img  className="cursor" src={Netflix} alt="" height="45px" width="145px"/>  
+                <Link to="/">
+                    <img  className="cursor" src={Netflix} alt="" height="45px" width="145px"/> 
+                </Link> 
             </div>
 
             <div className="detailsHeaderRight">

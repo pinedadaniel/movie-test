@@ -43,7 +43,9 @@ function BodyLogin() {
                         :  <small className="small"> Ingresa tu contraseña. </small>
                     }
                 </div>
-                <input type="submit" value="iniciar sesión" className="submit cursor"/>
+                <Link to="/movies">
+                    <input type="submit" value="iniciar sesión" className="submit cursor"/>
+                </Link>
                 <div className="contHelp">
                     <div className="sectionCheckbox">
 

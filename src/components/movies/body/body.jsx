@@ -1,5 +1,6 @@
 import './body.scss';
 import Joker from '../../../images/joker.jpg';
+import {Link} from 'react-router-dom';
  
 
 
@@ -29,28 +30,32 @@ function BodyMovies() {
                 <h1>FAVORITOS</h1>
             </div>
             <div className="contGrid">
-                <div className="movieItem">
-                    <img src={Joker} alt="Movie" width="100%" height="100%" />
+            <Link to="/details">
+                    <div className="movieItem">
+                     <img src={Joker} alt="Movie" width="100%" height="100%" />
                     <div className="mask">
                         <span >El Joker</span>
 
                     </div>
                     
                 </div>
+            </Link>
 
             </div>
             <div className="text">
                 <h1>TENDENCIAS</h1>
             </div>
             <div className="contGrid">
-                <div className="movieItem">
-                    <img src={Joker} alt="Movie" width="100%" height="100%" />
-                    <div className="mask">
-                        <span >El Joker</span>
+                <Link to="/details">
+                    <div className="movieItem">
+                        <img src={Joker} alt="Movie" width="100%" height="100%" />
+                        <div className="mask">
+                            <span >El Joker</span>
 
-                    </div>
+                        </div>
                     
-                </div>
+                    </div>
+                </Link>
 
             </div>
         </div>
