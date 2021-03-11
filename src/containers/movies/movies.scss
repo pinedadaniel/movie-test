@@ -1,0 +1,21 @@
+.contMainMovies{
+    
+    width: 100%;
+    position: absolute;
+    background-image: url(../../images/background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+    .boxShadow{
+        background-image: linear-gradient(to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8) 100%);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+    .contContent{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+}

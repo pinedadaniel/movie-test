@@ -10,11 +10,7 @@ function Header() {
             
             <div className="header-right">
                 <select name="select-lang" id="select-lang" className="btn-lang">
-                
-                    <option value="Español">
-                    <span class="material-icons">
-language
-</span> Español</option>
+                    <option value="Español">Español</option>
                     <option value="Ingles">Ingles</option>
                 </select>
             <button className="btn-login cursor">Iniciar Sesion</button>
