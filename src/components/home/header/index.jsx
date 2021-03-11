@@ -1,4 +1,4 @@
-import './style.css';
+
 import Netflix from '../../../images/netflix.svg';
 function Header() {
 
