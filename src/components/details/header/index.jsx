@@ -14,17 +14,19 @@ function Header() {
 
             <div className="detailsHeaderRight">
                 <label htmlFor="open-list" className="headerRightTop">
-                    <input type="checkbox" name="" id="open-list" />
                     <img  src={perfil} alt="icono del usuario" height="35px" width="35px"/>
                     <h2  className="nameUser">Pineda</h2>
                     <span className="material-icons">
                         arrow_drop_down
                     </span>
+                    <input type="checkbox" name="" id="open-list" />
                     <div className="lista-perfil">
                         <div>Cambiar usuario</div>
                         <div>Configuracion</div>
                         <div>Ayuda</div>
-                        <div>Cerrar Sesion</div>
+                        <Link className="cerrar-sesion" to="/login">
+                        <div >Cerrar Sesion</div>
+                        </Link>
                     </div>
                 </label>
                

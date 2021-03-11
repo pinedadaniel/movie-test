@@ -1,6 +1,6 @@
 import './movies.scss';
 import  React  from "react";
-import Header from '../../components/login/header/header';
+import Header from '../../components/details/header';
 import Body from '../../components/movies/body/body';
 
 
