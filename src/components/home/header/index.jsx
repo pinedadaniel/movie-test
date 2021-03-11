@@ -1,5 +1,6 @@
 import './style.css';
 import Netflix from '../../../images/netflix.svg';
+import { Link } from "react-router-dom";
 function Header() {
 
     return(
@@ -18,7 +19,9 @@ function Header() {
                     <option value="Ingles">Ingles</option>
                 </select>
             </label>
+            <Link to="/login" className="link-home-login" >
             <button className="btn-login cursor">Iniciar Sesion</button>
+            </Link>
             </div>
             
 
