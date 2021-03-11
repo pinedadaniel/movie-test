@@ -31,18 +31,23 @@ display: none;
     position: absolute;
     background-color: rgba(0,0,0,.9);
     padding: 8px;
-        text-align: center;
-        border-radius: 5px;
-        border:1px solid white;
-        border-top: none;
+    text-align: center;
+    border-radius: 5px;
+    border:1px solid white;
+    border-top: none;
     top: 35px;
     display: none;
-
+    text-decoration: none;
     
         
 } 
+.cerrar-sesion{
+text-decoration: none;
+color: white;
+}
 
 input[type="checkbox"]:checked + .lista-perfil{
     display: flex;
+    flex-direction: column;
     
 }
