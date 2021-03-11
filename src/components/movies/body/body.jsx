@@ -12,16 +12,15 @@ function BodyMovies() {
         <div className="contCategories">
             <h1>CATEGORIAS</h1>
             <div className="categoriesLabel">
-                <label htmlFor="">Terror/</label>
-                <label htmlFor="">Acción/</label>
-                <label htmlFor="">Comedia/</label>
-                <label htmlFor="">Suspenso/</label>
-                <label htmlFor="">Drama/</label>
-                <label htmlFor="">Ciencia Ficción/</label>
-                <label htmlFor="">Aventuras/</label>
-                
-                <label htmlFor="">Caricaturas/</label>
-                <label htmlFor="">+18/</label>
+                <label htmlFor="">Terror</label>
+                <label htmlFor="">Acción</label>
+                <label htmlFor="">Comedia</label>
+                <label htmlFor="">Suspenso</label>
+                <label htmlFor="">Drama</label>
+                <label htmlFor="">Ciencia Ficción</label>
+                <label htmlFor="">Aventuras</label>
+                <label htmlFor="">Caricaturas</label>
+                <label htmlFor="">+18</label>
             </div>
         </div>
         <div className="cardMovies">
