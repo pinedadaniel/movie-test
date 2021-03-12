@@ -2,6 +2,7 @@ import './style.scss';
 import React from 'react';
 import Header from '../../components/login/header/header';
 import Body from '../../components/login/body/body';
+import Footer from '../../components/login/footer/footer';
 
 
 function ContainerLogin() {
@@ -12,7 +13,7 @@ function ContainerLogin() {
                 
                 <Header></Header>
                 <Body></Body>
-
+                <Footer></Footer>
             </div>
         </div>
     )
